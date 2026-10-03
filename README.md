@@ -1,4 +1,8 @@
+![Brian high resolution texture mod](media/brian-texture-mod.gif)
+
 # Quest 64 Tale: Recompiled Mods
+
+Download the [v1.0.5 mod packs ZIP](https://github.com/boricuapab/quest64tale-recompiled-mods/releases/tag/v1.0.5).
 
 Companion packs for [Quest 64 Tale: Recompiled](https://github.com/boricuapab/quest64tale-recompiled), version **1.0.5**.
 
