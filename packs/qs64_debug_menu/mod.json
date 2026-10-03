@@ -1,0 +1,13 @@
+{
+  "game_id": "qs64",
+  "id": "qs64_debug_menu",
+  "display_name": "Quest 64 Debug Menu",
+  "description": "Map, submap and entrance travel plus eight boss encounters in Settings > Debug. Uses native map loading and boss progression.",
+  "short_description": "Quest 64 Debug Menu",
+  "version": "1.0.5",
+  "minimum_recomp_version": "1.0.5",
+  "authors": [
+    "Local Quest 64 mods"
+  ],
+  "enabled_by_default": true
+}

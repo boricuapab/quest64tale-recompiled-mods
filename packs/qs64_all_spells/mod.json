@@ -1,0 +1,13 @@
+{
+  "game_id": "qs64",
+  "id": "qs64_all_spells",
+  "display_name": "All Spells",
+  "description": "Sets all four elements to 50, unlocking their spells. Can be toggled independently of Maximum Stats.",
+  "short_description": "All Spells",
+  "version": "1.0.5",
+  "minimum_recomp_version": "1.0.5",
+  "authors": [
+    "Local Quest 64 mods"
+  ],
+  "enabled_by_default": false
+}

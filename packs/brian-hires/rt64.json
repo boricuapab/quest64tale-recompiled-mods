@@ -1,0 +1,35 @@
+{
+  "configuration": {
+    "configurationVersion": 3,
+    "hashVersion": 5,
+    "autoPath": "rt64",
+    "defaultOperation": "preload",
+    "defaultShift": "half"
+  },
+  "textures": [
+    {
+      "path": "textures/00_rom_0086bd90.png",
+      "hashes": {
+        "rt64": "7fef40374b029078"
+      },
+      "operation": "preload",
+      "shift": "half"
+    },
+    {
+      "path": "textures/05_rom_0086cd90.png",
+      "hashes": {
+        "rt64": "daf9842dca885c99"
+      },
+      "operation": "preload",
+      "shift": "half"
+    },
+    {
+      "path": "textures/06_rom_0086c590.png",
+      "hashes": {
+        "rt64": "fb413f42ab28bdc1"
+      },
+      "operation": "preload",
+      "shift": "half"
+    }
+  ]
+}

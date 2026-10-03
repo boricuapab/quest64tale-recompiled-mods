@@ -1,0 +1,13 @@
+{
+  "game_id": "qs64",
+  "id": "qs64_max_stats",
+  "display_name": "Maximum Stats",
+  "description": "HP/MP 500, agility/defense 255, all four elements 50. Disabling restores the captured stats during this session.",
+  "short_description": "Maximum Stats",
+  "version": "1.0.5",
+  "minimum_recomp_version": "1.0.5",
+  "authors": [
+    "Local Quest 64 mods"
+  ],
+  "enabled_by_default": false
+}

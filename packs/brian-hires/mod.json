@@ -1,0 +1,13 @@
+{
+  "game_id": "qs64",
+  "id": "brian_hires",
+  "display_name": "Brian High Resolution Textures",
+  "description": "Brian texture replacements from the supplied hires_tex folder. Original cutout alpha is preserved.",
+  "short_description": "High-resolution Brian character textures",
+  "version": "1.0.5",
+  "minimum_recomp_version": "1.0.5",
+  "authors": [
+    "Local texture collection"
+  ],
+  "enabled_by_default": true
+}
