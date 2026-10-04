@@ -1,0 +1,13 @@
+{
+  "game_id": "qs64",
+  "id": "qs64_enemy_health",
+  "display_name": "Enemy Health Bars",
+  "description": "Shows an overhead health bar for every visible enemy during battles, including bosses. Bars turn yellow and red as health falls.",
+  "short_description": "Enemy Health Bars",
+  "version": "1.0.0",
+  "minimum_recomp_version": "1.0.7",
+  "authors": [
+    "Quest 64 Tale"
+  ],
+  "enabled_by_default": false
+}

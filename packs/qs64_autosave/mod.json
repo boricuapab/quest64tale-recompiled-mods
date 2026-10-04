@@ -1,0 +1,13 @@
+{
+  "game_id": "qs64",
+  "id": "qs64_autosave",
+  "display_name": "Auto Save",
+  "description": "Saves a separate checkpoint after door and area transitions. Restore from the Mods footer after loading a game; normal Controller Pak saves are untouched.",
+  "short_description": "Auto Save",
+  "version": "1.0.0",
+  "minimum_recomp_version": "1.0.7",
+  "authors": [
+    "Quest 64 Tale"
+  ],
+  "enabled_by_default": false
+}

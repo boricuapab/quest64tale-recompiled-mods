@@ -1,0 +1,31 @@
+{
+  "game_id": "qs64",
+  "id": "qs64_encounter_rate",
+  "display_name": "Random Encounter Rate",
+  "description": "Choose Off, 10%, 25%, 50%, or Default in Configure. Rates scale encounters per distance travelled; scripted boss fights are unchanged.",
+  "short_description": "Random Encounter Rate",
+  "version": "1.0.0",
+  "minimum_recomp_version": "1.0.7",
+  "authors": [
+    "Quest 64 Tale"
+  ],
+  "enabled_by_default": false,
+  "config_schema": {
+    "options": [
+      {
+        "id": "rate",
+        "name": "Random encounter rate",
+        "description": "Relative to the original encounters per distance travelled.",
+        "type": "Enum",
+        "options": [
+          "Off",
+          "10%",
+          "25%",
+          "50%",
+          "Default"
+        ],
+        "default": "Default"
+      }
+    ]
+  }
+}
