@@ -1,0 +1,13 @@
+{
+  "game_id": "qs64",
+  "id": "qs64_experience",
+  "display_name": "All Stats Experience",
+  "description": "Displays HP, MP, speed, defense and element experience as vertical percentages and progress bars in gameplay. Successful magic attacks also grant HP experience; successful physical and magic attacks grant speed and defense experience. Original growth from movement and taking damage remains active.",
+  "short_description": "All Stats Experience",
+  "version": "1.0.1",
+  "minimum_recomp_version": "1.0.8",
+  "authors": [
+    "Quest 64 Tale"
+  ],
+  "enabled_by_default": false
+}

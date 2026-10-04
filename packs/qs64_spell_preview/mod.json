@@ -1,0 +1,13 @@
+{
+  "game_id": "qs64",
+  "id": "qs64_spell_preview",
+  "display_name": "Spell Preview",
+  "description": "Shows the selected spell hit radius and distance to the locked enemy in native world units, with the game's Effective, Super Effective or Not Very Effective element matchup. Support spells are labelled separately.",
+  "short_description": "Spell Preview",
+  "version": "1.0.1",
+  "minimum_recomp_version": "1.0.8",
+  "authors": [
+    "Quest 64 Tale"
+  ],
+  "enabled_by_default": false
+}

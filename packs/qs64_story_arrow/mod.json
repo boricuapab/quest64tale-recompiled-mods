@@ -1,0 +1,13 @@
+{
+  "game_id": "qs64",
+  "id": "qs64_story_arrow",
+  "display_name": "Story Direction Arrow",
+  "description": "Displays a horizontal, shaded 3D purple arrow above Brian toward the next door or zone on the route to the next undefeated story boss. Inventory gates are respected; a locked route is labelled when an item is needed.",
+  "short_description": "Story Direction Arrow",
+  "version": "1.0.1",
+  "minimum_recomp_version": "1.0.8",
+  "authors": [
+    "Quest 64 Tale"
+  ],
+  "enabled_by_default": false
+}

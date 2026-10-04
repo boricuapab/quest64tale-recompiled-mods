@@ -1,0 +1,13 @@
+{
+  "game_id": "qs64",
+  "id": "qs64_spirit_tracker",
+  "display_name": "Spirit Tracker",
+  "description": "Shows uncollected spirits in the current level and a smaller orange 3D arrow toward the nearest spirit, or the connecting doorway when it is in another reachable room.",
+  "short_description": "Spirit Tracker",
+  "version": "1.0.1",
+  "minimum_recomp_version": "1.0.8",
+  "authors": [
+    "Quest 64 Tale"
+  ],
+  "enabled_by_default": false
+}
