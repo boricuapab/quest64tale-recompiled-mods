@@ -2,10 +2,10 @@
   "game_id": "qs64",
   "id": "qs64_solvaring_fmv",
   "display_name": "Solvaring Backstory FMV",
-  "description": "Plays the supplied Solvaring backstory video after Brian leaves the monastery main front door. Gameplay pauses while the fullscreen video plays. Escape, Space, Enter, controller B or Start skips it. Plays once per game session.",
-  "short_description": "Solvaring story FMV after the monastery exit",
-  "version": "1.0.0",
-  "minimum_recomp_version": "1.0.9",
+  "description": "Three Solvaring FMVs: monastery main-door exit, before his encounter dialogue, and after Brian finishes celebrating his defeat. Gameplay pauses during fullscreen playback. Escape, Space, Enter, controller B or Start skips. Each clip plays once per game session.",
+  "short_description": "Solvaring backstory, battle introduction and defeat FMVs",
+  "version": "1.1.0",
+  "minimum_recomp_version": "1.1.0",
   "authors": [
     "Quest 64 Tale"
   ],

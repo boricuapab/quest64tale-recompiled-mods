@@ -2,7 +2,7 @@
 
 # Quest 64 Tale: Recompiled Mods
 
-Download the [v1.0.9 mod packs ZIP](https://github.com/boricuapab/quest64tale-recompiled-mods/releases/tag/v1.0.9).
+Download the [v1.1.1 mod packs ZIP](https://github.com/boricuapab/quest64tale-recompiled-mods/releases/tag/v1.1.1).
 
 Companion packs for [Quest 64 Tale: Recompiled](https://github.com/boricuapab/quest64tale-recompiled), version **1.0.9**.
 
@@ -80,3 +80,9 @@ The v1.0.9 mods ZIP contains only twelve installable packs at its root.
 
 **OpenAI Codex** — AI-assisted implementation, debugging and release preparation.
 The OpenAI logo is a trademark of OpenAI.
+
+## Game Speed (game v1.1.1 or later)
+
+Enable **Game Speed**, open **Configure**, and choose **2x**, **4x**, or **8x**. Brian, enemies and combat timers advance faster; menus and transitions keep normal timing. Disable the mod for normal speed. The v1.1.1 mods ZIP contains thirteen installable packs at its root. Put them in `mods/` beside the updated executable. See [Game Speed](GAME-SPEED.md) and [v1.1.1 notes](UPDATE-1.1.1.md).
+
+Spell Preview now shows 50%, 100% or 125% element multipliers and estimated damage as a percentage of enemy maximum HP, including staff attacks in reach. Solvaring FMV includes the monastery-exit backstory, pre-dialogue battle introduction, and post-celebration defeat movie.

@@ -4,3 +4,5 @@ build/
 *.zip
 "__pycache__/" 
 "*.pyc" 
+
+/mods/dist/qs64_solvaring_fmv.qsmod

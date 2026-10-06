@@ -1,0 +1,29 @@
+{
+  "game_id": "qs64",
+  "id": "qs64_game_speed",
+  "display_name": "Game Speed",
+  "short_description": "2x, 4x or 8x gameplay speed",
+  "version": "1.0.0",
+  "minimum_recomp_version": "1.1.1",
+  "authors": [
+    "Quest 64 Tale"
+  ],
+  "enabled_by_default": false,
+  "description": "Accelerates walking, attacks, enemies and combat timers using complete native simulation steps. Menus, dialogue and transitions stay at normal speed. Requires the updated game executable.",
+  "config_schema": {
+    "options": [
+      {
+        "id": "speed",
+        "name": "Gameplay speed",
+        "description": "All active gameplay advances at this rate; disable the mod for normal speed.",
+        "type": "Enum",
+        "options": [
+          "2x",
+          "4x",
+          "8x"
+        ],
+        "default": "2x"
+      }
+    ]
+  }
+}
