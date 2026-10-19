@@ -2,9 +2,9 @@
 
 # Quest 64 Tale: Recompiled Mods
 
-Download the [v1.1.1 mod packs ZIP](https://github.com/boricuapab/quest64tale-recompiled-mods/releases/tag/v1.1.1).
+Download the [v1.1.2 mod packs ZIP](https://github.com/boricuapab/quest64tale-recompiled-mods/releases/tag/v1.1.2).
 
-Companion packs for [Quest 64 Tale: Recompiled](https://github.com/boricuapab/quest64tale-recompiled), version **1.0.9**.
+Companion packs for [Quest 64 Tale: Recompiled](https://github.com/boricuapab/quest64tale-recompiled), version **1.1.2**.
 
 Open Mods → Open Mods Folder in the game launcher, copy the `.qsmod` files and `brian-hires.rtz` into that folder, then enable the packs. Installable files in this repository are in `mods/dist`. Packs are shared by Windows and Linux; install them in each platform's own profile.
 
@@ -39,9 +39,9 @@ use **Configure** to select **Off**, **10%**, **25%**, **50%**, or **Default**. 
 
 overhead bars update every battle frame, including bosses. Close-range bars stay at the screen edge. Green/yellow/red indicate remaining health.
 
-The release ZIP contains exactly the twelve installable `.qsmod`/`.rtz` files at its root. Editable sources remain under `packs`; `tools/package.py` rebuilds them into `mods/dist`.
+The release ZIP contains exactly thirteen installable `.qsmod`/`.rtz` files at its root. Editable sources remain under `packs`; `tools/package.py` rebuilds them into `mods/dist`.
 
-Linux's usual mod directory is `~/.config/Quest64Recompiled/mods`. Windows uses `%LOCALAPPDATA%/Quest64Recompiled/mods`. Portable mode can change the profile location.
+Linux's usual mod directory is `~/.config/Quest64Recompiled/mods`. Windows uses `%LOCALAPPDATA%/Quest64Recompiled/mods`. The profile directory is searched first; the executable’s mods folder is the fallback. The profile copy wins duplicate mod IDs.
 
 ## Additional gameplay packs for v1.0.8
 
@@ -81,8 +81,12 @@ The v1.0.9 mods ZIP contains only twelve installable packs at its root.
 **OpenAI Codex** — AI-assisted implementation, debugging and release preparation.
 The OpenAI logo is a trademark of OpenAI.
 
-## Game Speed (game v1.1.1 or later)
+## Game Speed (updated for game v1.1.2)
 
-Enable **Game Speed**, open **Configure**, and choose **2x**, **4x**, or **8x**. Brian, enemies and combat timers advance faster; menus and transitions keep normal timing. Disable the mod for normal speed. The v1.1.1 mods ZIP contains thirteen installable packs at its root. Put them in `mods/` beside the updated executable. See [Game Speed](GAME-SPEED.md) and [v1.1.1 notes](UPDATE-1.1.1.md).
+Enable **Game Speed**, open **Configure**, and choose **Default (1x)**, **2x**, **4x**, or **8x**. Brian, enemies and combat timers advance faster; menus and transitions keep normal timing. Choose Default (1x) for normal speed. The v1.1.2 mods ZIP contains thirteen installable packs at its root. Put them in `mods/` beside the updated executable. See [Game Speed](GAME-SPEED.md) and [v1.1.2 notes](UPDATE-1.1.2.md).
 
 Spell Preview now shows 50%, 100% or 125% element multipliers and estimated damage as a percentage of enemy maximum HP, including staff attacks in reach. Solvaring FMV includes the monastery-exit backstory, pre-dialogue battle introduction, and post-celebration defeat movie.
+
+## v1.1.2 update
+
+Use the matching v1.1.2 game executable for the save-load crash fix and safe debug arrivals at all selectable locations and bosses. The runtime also includes the vertical, bold attack preview and the latest speed rendering fixes. Install the thirteen packs from the ZIP into your profile mods folder or the mods folder beside the executable. See [release notes](UPDATE-1.1.2.md).

@@ -1,6 +1,6 @@
 # Game Speed
 
-Enable **Game Speed** in the launcher's **Mods** tab, then open **Configure** and select **2x**, **4x**, or **8x**. Disable the mod to return to normal speed.
+Enable **Game Speed** in the launcher's **Mods** tab, then open **Configure** and select **Default (1x)**, **2x**, **4x**, or **8x**.
 
 The mod runs complete native gameplay updates multiple times per displayed frame. Brian's walking and attacks, enemy actions, spell effects and combat timers all advance faster. Camera rotation, audio and FMV playback keep their normal timing. Menus, dialogue, door transitions and battle pause keep their normal update rate.
 
