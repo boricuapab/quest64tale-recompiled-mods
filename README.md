@@ -15,7 +15,7 @@ The [v1.1.6 release](https://github.com/boricuapab/quest64tale-recompiled-mods/r
 
 Native shadows, collision and story progression remain handled by the game. If an older copy is installed in the profile mods folder, replace it there; profile copies take priority over the game folder.
 
-See [v1.1.6 release notes](UPDATE-1.1.6.md).
+See [v1.1.6 release notes](docs/UPDATE-1.1.6.md).
 
 
 Open Mods → Open Mods Folder in the game launcher, copy the `.qsmod` files and `brian-hires.rtz` into that folder, then enable the packs. Installable files in this repository are in `mods/dist`. Packs are shared by Windows and Linux; install them in each platform's own profile.
@@ -95,10 +95,10 @@ The OpenAI logo is a trademark of OpenAI.
 
 ## Game Speed (updated for game v1.1.2)
 
-Enable **Game Speed**, open **Configure**, and choose **Default (1x)**, **2x**, **4x**, or **8x**. Brian, enemies and combat timers advance faster; menus and transitions keep normal timing. Choose Default (1x) for normal speed. The v1.1.2 mods ZIP contains thirteen installable packs at its root. Put them in `mods/` beside the updated executable. See [Game Speed](GAME-SPEED.md) and [v1.1.2 notes](UPDATE-1.1.2.md).
+Enable **Game Speed**, open **Configure**, and choose **Default (1x)**, **2x**, **4x**, or **8x**. Brian, enemies and combat timers advance faster; menus and transitions keep normal timing. Choose Default (1x) for normal speed. The v1.1.2 mods ZIP contains thirteen installable packs at its root. Put them in `mods/` beside the updated executable. See [Game Speed](GAME-SPEED.md) and [v1.1.2 notes](docs/UPDATE-1.1.2.md).
 
 Spell Preview now shows 50%, 100% or 125% element multipliers and estimated damage as a percentage of enemy maximum HP, including staff attacks in reach. Solvaring FMV includes the monastery-exit backstory, pre-dialogue battle introduction, and post-celebration defeat movie.
 
 ## v1.1.2 update
 
-Use the matching v1.1.2 game executable for the save-load crash fix and safe debug arrivals at all selectable locations and bosses. The runtime also includes the vertical, bold attack preview and the latest speed rendering fixes. Install the thirteen packs from the ZIP into your profile mods folder or the mods folder beside the executable. See [release notes](UPDATE-1.1.2.md).
+Use the matching v1.1.2 game executable for the save-load crash fix and safe debug arrivals at all selectable locations and bosses. The runtime also includes the vertical, bold attack preview and the latest speed rendering fixes. Install the thirteen packs from the ZIP into your profile mods folder or the mods folder beside the executable. See [release notes](docs/UPDATE-1.1.2.md).
