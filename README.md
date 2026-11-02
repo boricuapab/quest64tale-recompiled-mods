@@ -51,35 +51,13 @@ use **Configure** to select **Off**, **10%**, **25%**, **50%**, or **Default**. 
 
 overhead bars update every battle frame, including bosses. Close-range bars stay at the screen edge. Green/yellow/red indicate remaining health.
 
-The release ZIP contains exactly thirteen installable `.qsmod`/`.rtz` files at its root. Editable sources remain under `packs`; `tools/package.py` rebuilds them into `mods/dist`.
+The release ZIP contains exactly fifteen installable `.qsmod`/`.rtz` files at its root. Editable sources remain under `packs`; `tools/package.py` rebuilds them into `mods/dist`.
 
 Linux's usual mod directory is `~/.config/Quest64Recompiled/mods`. Windows uses `%LOCALAPPDATA%/Quest64Recompiled/mods`. The profile directory is searched first; the executable’s mods folder is the fallback. The profile copy wins duplicate mod IDs.
 
-## Additional gameplay packs for v1.0.8
+## Documentation
 
-- **All Stats Experience**: compact vertical HP, MP, speed, defense and element progress bars. Successful magical hits also grant health XP; successful physical and magical hits grant speed and defense XP. Original growth remains active.
-- **Story Direction Arrow**: horizontal purple 3D arrow toward the next story route, with a compact destination label. Clipped inside the gameplay viewport.
-- **Spirit Tracker**: current level's collected/total spirits and remaining count, plus a smaller orange 3D arrow beside the story arrow toward the nearest uncollected spirit. Uses connecting doors when the target is in another reachable room; disappears when none remain.
-- **Spell Preview**: selected spell's native hit radius and distance to the locked enemy, in game world units, with **Effective**, **Super Effective**, or **Not Very Effective** from the original damage matchup table. Support spells are labelled separately. Hit radius is the collision area, rather than a prediction of projectile travel or a guaranteed hit.
-
-The v1.0.8 mods ZIP contains only the Brian texture pack and the ten gameplay `.qsmod` packs. Enable the new packs in the launcher's Mods tab after restarting the updated game.
-
-## Solvaring Backstory FMV (game v1.0.9 or later)
-
-[Watch Solvaring Backstory FMV](https://www.youtube.com/watch?v=IJ6um13d1Uc)
-
-Enable **Solvaring Backstory FMV** before leaving the monastery. After Brian
-exits its main front door and finishes the door animation, the supplied
-30-second video plays fullscreen with sound. Gameplay pauses and game audio is
-muted. Press Escape, Enter, Space, controller B or Start to skip and resume.
-The video plays once per game session; loading directly outside and interior
-monastery doors do not trigger it. No external player is required.
-
-The optional `.qsmod` includes its movie and `quest64_fmv.json` door rule.
-Other movie packs can use this same content format: MPEG-1 video with MP2 audio
-in an MPEG program stream, with source/destination map and scene IDs and the
-source door position. `once_per_session` controls replay on subsequent exits.
-The v1.0.9 mods ZIP contains only twelve installable packs at its root.
+See [Game Speed](GAME-SPEED.md) for speed settings and [docs](docs/) for previous update notes.
 
 ## Contributors
 
@@ -92,13 +70,3 @@ The v1.0.9 mods ZIP contains only twelve installable packs at its root.
 
 **OpenAI Codex** — AI-assisted implementation, debugging and release preparation.
 The OpenAI logo is a trademark of OpenAI.
-
-## Game Speed (updated for game v1.1.2)
-
-Enable **Game Speed**, open **Configure**, and choose **Default (1x)**, **2x**, **4x**, or **8x**. Brian, enemies and combat timers advance faster; menus and transitions keep normal timing. Choose Default (1x) for normal speed. The v1.1.2 mods ZIP contains thirteen installable packs at its root. Put them in `mods/` beside the updated executable. See [Game Speed](GAME-SPEED.md) and [v1.1.2 notes](docs/UPDATE-1.1.2.md).
-
-Spell Preview now shows 50%, 100% or 125% element multipliers and estimated damage as a percentage of enemy maximum HP, including staff attacks in reach. Solvaring FMV includes the monastery-exit backstory, pre-dialogue battle introduction, and post-celebration defeat movie.
-
-## v1.1.2 update
-
-Use the matching v1.1.2 game executable for the save-load crash fix and safe debug arrivals at all selectable locations and bosses. The runtime also includes the vertical, bold attack preview and the latest speed rendering fixes. Install the thirteen packs from the ZIP into your profile mods folder or the mods folder beside the executable. See [release notes](docs/UPDATE-1.1.2.md).

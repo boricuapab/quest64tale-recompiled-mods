@@ -25,3 +25,13 @@ Controller Pak save files together. Auto Save checkpoints remain separate.
 The game archives contain no ROM, extracted game assets, saves, movies or
 personal settings. Supply your own supported USA ROM. Optional mods are
 distributed separately.
+
+## Game Speed (updated for game v1.1.2)
+
+Enable **Game Speed**, open **Configure**, and choose **Default (1x)**, **2x**, **4x**, or **8x**. Brian, enemies and combat timers advance faster; menus and transitions keep normal timing. Choose Default (1x) for normal speed. The v1.1.2 mods ZIP contains thirteen installable packs at its root. Put them in `mods/` beside the updated executable. See [Game Speed](../GAME-SPEED.md) and [v1.1.2 notes](UPDATE-1.1.2.md).
+
+Spell Preview now shows 50%, 100% or 125% element multipliers and estimated damage as a percentage of enemy maximum HP, including staff attacks in reach. Solvaring FMV includes the monastery-exit backstory, pre-dialogue battle introduction, and post-celebration defeat movie.
+
+## v1.1.2 update
+
+Use the matching v1.1.2 game executable for the save-load crash fix and safe debug arrivals at all selectable locations and bosses. The runtime also includes the vertical, bold attack preview and the latest speed rendering fixes. Install the thirteen packs from the ZIP into your profile mods folder or the mods folder beside the executable. See [release notes](UPDATE-1.1.2.md).
