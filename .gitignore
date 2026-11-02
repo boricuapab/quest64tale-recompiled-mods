@@ -6,3 +6,4 @@ build/
 "*.pyc" 
 
 /mods/dist/qs64_solvaring_fmv.qsmod
+/mods/dist/CustomChrMr.McCloudMod.qsmod

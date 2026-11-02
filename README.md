@@ -2,9 +2,21 @@
 
 # Quest 64 Tale: Recompiled Mods
 
-Download the [v1.1.2 mod packs ZIP](https://github.com/boricuapab/quest64tale-recompiled-mods/releases/tag/v1.1.2).
+Download the [v1.1.6 mod packs ZIP](https://github.com/boricuapab/quest64tale-recompiled-mods/releases/tag/v1.1.6).
 
-Companion packs for [Quest 64 Tale: Recompiled](https://github.com/boricuapab/quest64tale-recompiled), version **1.1.2**.
+Companion packs for [Quest 64 Tale: Recompiled](https://github.com/boricuapab/quest64tale-recompiled), version **1.1.6**.
+
+## Custom characters — v1.1.6
+
+The [v1.1.6 release](https://github.com/boricuapab/quest64tale-recompiled-mods/releases/tag/v1.1.6) contains **fifteen installable packs**, including both custom characters. Use the matching v1.1.6 game executable and enable one character replacement at a time.
+
+- **[CustomChrKidMageMod](CustomChrKidMageMod.md)** replaces Brian with Kid Mage, including all 30 animations, original-resolution textures, an animated staff and smooth high-framerate motion.
+- **[CustomChrMr.McCloudMod](CustomChrMr.McCloudMod.md)** replaces Brian with Mr. McCloud, with all 30 animations, animated tail/staff, a repeating eyelid cycle and corrected door placement. The current pack is revision **1.0.4**. It is distributed through release assets because it exceeds GitHub's Git-file size limit.
+
+Native shadows, collision and story progression remain handled by the game. If an older copy is installed in the profile mods folder, replace it there; profile copies take priority over the game folder.
+
+See [v1.1.6 release notes](UPDATE-1.1.6.md).
+
 
 Open Mods → Open Mods Folder in the game launcher, copy the `.qsmod` files and `brian-hires.rtz` into that folder, then enable the packs. Installable files in this repository are in `mods/dist`. Packs are shared by Windows and Linux; install them in each platform's own profile.
 
